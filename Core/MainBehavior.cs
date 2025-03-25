@@ -15,6 +15,11 @@ public abstract class MainBehavior
     public abstract string InputAndOutput(string input);
 
     /// <summary>
+    /// 返回操作教程等内容
+    /// </summary>
+    public abstract string GetHelpContent(int page = 0);
+
+    /// <summary>
     /// 关闭游戏后清理资源与内存等
     /// </summary>
     public abstract string Close();
