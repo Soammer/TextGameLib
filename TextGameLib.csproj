@@ -15,7 +15,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Plugins\" />
+    <Compile Remove="Plugins\**" />
+    <EmbeddedResource Remove="Plugins\**" />
+    <None Remove="Plugins\**" />
   </ItemGroup>
 
 </Project>

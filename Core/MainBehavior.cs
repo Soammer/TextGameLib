@@ -12,7 +12,7 @@ public abstract class MainBehavior
     /// <summary>
     /// 输入玩家的操作字符串，返回对应的输出
     /// </summary>
-    public abstract string InputAndOutput(string input);
+    public abstract string InputAndOutput(List<string> input);
 
     /// <summary>
     /// 返回操作教程等内容
