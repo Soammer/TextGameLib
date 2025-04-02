@@ -38,6 +38,8 @@ public abstract class MainBehavior
         SendMessageEvent -= sender;
     }
 
+    public abstract void SetRootPath(string path);
+
     internal void SendMessage(string msg, long gID)
     {
         SendMessageEvent?.Invoke(msg, gID);
